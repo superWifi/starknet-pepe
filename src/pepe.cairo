@@ -37,7 +37,7 @@ mod Pepe {
     const BLOCK_TIME: u64 = 50_u64; // seconds
     const BLOCK_HALVE_INTERVAL: u64 = 400000_u64; // blocks
 
-    const MAX_SUPPLY: u128 = 8000000000000000000000000000_u128; // tokens
+    const MAX_SUPPLY: u128 = 10000000000000000000000000000_u128; // tokens
 
 
     struct Storage {
