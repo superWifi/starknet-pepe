@@ -10,3 +10,7 @@ This is an ERC-20 contract modified according to OpenZeppelin's [implementation]
 ## Development
 
 - - Install [cairo-v1.1.1](https://github.com/starkware-libs/cairo/tree/v1.1.1).
+- 
+- - Set `cairo-test`, `cairo-format` and `starknet-compile` in your $PATH.
+- 
+- Run command in [Makefile](https://github.com/superWifi/starknet-pepe/blob/master/Makefile).
