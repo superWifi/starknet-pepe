@@ -114,6 +114,8 @@ mod Pepe {
     #[constructor]
     fn constructor(name: felt252, symbol: felt252) {
         initializer(name, symbol);
+        _start_time::write(get_block_timestamp());
+        _mint_flag::write(1);
     }
 
     #[view]
